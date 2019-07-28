@@ -1,0 +1,37 @@
+*
+{
+    margin:0;
+}
+#main
+{
+   color:white;
+   background:#3b5998; 
+   padding-left:50px;
+   height:60px;
+   padding-top:20px;
+}
+#box
+{
+    width:500px;
+    margin:auto;
+    margin-top:40px;
+    padding:50px;
+    border:2px solid grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box1
+{
+    line-height: 3em;
+}
+#name
+{
+   padding:10px 40px;
+   font-size:20px;
+   border-radius:5px;
+}
+#cpy
+{
+    width:200px;
+   margin:auto; 
+   font-size:20px;
+}
