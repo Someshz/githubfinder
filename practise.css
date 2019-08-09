@@ -1,6 +1,7 @@
 *
 {
     margin:0;
+    box-sizing:border-box;
 }
 #main
 {
@@ -12,7 +13,7 @@
 }
 #box
 {
-    width:500px;
+    width:600px;
     margin:auto;
     margin-top:40px;
     padding:50px;
@@ -34,4 +35,25 @@
     width:200px;
    margin:auto; 
    font-size:20px;
+}
+#btn1
+{
+    background:#47FF33;
+    padding:10px 40px;
+    color:white;
+    font-size:20px;
+    border-radius:9px;
+}
+#btn
+{
+    width:30px;
+    margin:auto;
+}
+#output
+{
+    width:800px;
+    margin:auto;
+    border:1px solid black;
+    padding-left:30px;
+    background:grey;
 }
