@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  color: white !important;
+  background: white;
+  border-radius: 50%;
+  margin-left: 1.3rem;
+}
+nav {
+  color: white;
+  background: blueviolet;
+  padding: 0.6rem;
+}
+nav h1 {
+  font-size: 3rem;
+  margin-left: 1.1rem;
+}
+
+.searchbox {
+  margin: 2rem 0rem;
+}
+
+#searchfield {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.18rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.2rem #333;
+  padding: 0.5rem 1rem;
+}
+#searchfield:focus {
+  border: none;
+  outline: none;
+}
+#searchfield::placeholder {
+  font-weight: 300;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchbtn {
+  font-family: "Rubik", sans-serif;
+  outline-color: blueviolet;
+  color: blueviolet;
+  border: 1.5px solid blueviolet;
+  padding: 0.8rem 1rem;
+  font-size: 1.04rem;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#output {
+  padding: 1rem;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.4rem blueviolet;
+  max-width: 500px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 0.8rem;
+}
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.badge {
+  text-decoration: none !important;
+  color:black;
+  margin: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid blueviolet;
+}
+
+.badge-3 {
+
+  background: blueviolet;
+  color: white;
+}
+p {
+  font-size: 1.1rem;
+}
+.align-left {
+  justify-content: left;
+}
+
+@media (max-width: 600px) {
+  #output {
+    max-width: 90%;
+  }
+  .sm {
+    flex-direction: column;
+  }
+  #searchbtn {
+    margin-top: 1rem;
+  }
+}
