@@ -1,6 +1,6 @@
 document.querySelector("#searchbtn").addEventListener("click", fetchDetails);
 
-window.addEventListener("load", () => fetchDetails());
+window.addEventListener("load", (e) => fetchDetails(e));
 
 function fetchDetails(e) {
   fetch(
