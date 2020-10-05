@@ -1,37 +1,40 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="description" content="github finder somesh zade">
-  <meta name="keywords" content="github, githubfinder, somesh zade">
-  <meta name="google-site-verification" content="U8K0cfcskdWLpA168sRC4EqqCGhzaf7GYBTPI-fUkuE" />
-     <title>GitHub Finder</title>
-     <link rel='stylesheet' href='practise.css'> 
- </head>
- <body>
-     <div id="main">
-        <h1>GiThub</h1> 
-     </div>
-     <div id="box">
-         <div id="box1">
-             <h1>SEARCH FOR GITHUB USER</h1>
-             <p>Enter name and fetch the details</p>
-         </div>
-         <div id="search">
-             <input type="text" id="name" placeholder="enter name for search" >
-         </div>    
-     </div>
-     <br>
-     <div id=btn><button id="btn1">Button</button></div>
-     <br>
-     <div id="cpy"><p>GiThub &copy; 2019</p></div>  
-     <hr>
-     <div id="output">
-         
-     </div>
-     <script src="pr.js"></script>
-     <script src="pr1.js"></script>
- </body>
- </html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="github finder somesh zade" />
+    <meta name="keywords" content="github, githubfinder, somesh zade" />
+    <meta
+      name="google-site-verification"
+      content="U8K0cfcskdWLpA168sRC4EqqCGhzaf7GYBTPI-fUkuE"
+    />
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="d-flex align-left">
+      <img src="./logo.svg" class="logo" alt="Logo" />
+      <h1>Github</h1>
+    </nav>
+
+    <div class="searchbox">
+      <div class="d-flex sm">
+        <input
+          type="text"
+          placeholder="Enter Username"
+          spellcheck="false"
+          id="searchfield"
+          value="someshz"
+          autocomplete="off"
+        />
+        <button type="click" id="searchbtn">Search</button>
+      </div>
+    </div>
+
+    <div id="output"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
